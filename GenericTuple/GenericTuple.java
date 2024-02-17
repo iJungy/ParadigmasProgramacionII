@@ -21,4 +21,5 @@ public class GenericTuple<T,U> {
         public String toString() {
             return String.format("(%s,%s)", getFirst().toString(), getSecond().toString());
         }
+        
     }

@@ -6,5 +6,5 @@ public class Utilities {
     public static <T> boolean compare (T obj1, T obj2){
         return obj1.equals(obj2);
     }
-
+    
 }

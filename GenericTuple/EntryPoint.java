@@ -13,6 +13,13 @@ public class EntryPoint  {
 
         boolean result3 = Utilities.compare (3.0, 3.0);
         System.out.println (result3);
+
+        GenericTuple<Double,Double> point3 = new GenericTuple<>(4.0, 4.0);
+        GenericTuple <Double,Double> point4 = new GenericTuple<>(4.0,5.0);
+
+        boolean result4 = Utilities.compare(point3,point4);
+        System.out.println(result4);
+
     }
 
 }
